@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Koketso/Documents/C++/build/cmake_install.cmake",
+		"C:/Users/Koketso/Documents/C++/build/src/cmake_install.cmake",
+		"C:/Users/Koketso/Documents/C++/build/examples/cmake_install.cmake",
+		"C:/Users/Koketso/Documents/C++/build/tests/cmake_install.cmake",
+		"C:/Users/Koketso/Documents/C++/build/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
