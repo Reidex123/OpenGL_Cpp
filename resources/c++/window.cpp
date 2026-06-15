@@ -24,5 +24,23 @@ int main(){
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
     // Create the window
+
+    GLFWwindow *window = glfwCreateWindow(1280, 720, "GameEngine", nullptr, nullptr);
+
+    // check if the window was created successfully
+    if (!window){
+        cerr << "Window creation failed!!";
+        return -1;
+    }
+
+    glfwMakeContextCurrent(window);
+
+    while(!glfwWindowShouldClose(window)){
+
+        glfwPollEvents();
+    }
+
+    glfwDestroyWindow(window);
+    glfwTerminate();
     return 0;
 }
